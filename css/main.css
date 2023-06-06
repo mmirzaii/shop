@@ -2,11 +2,17 @@
   font-family: araz;
   src: url(../fonts/araz.ttf);
 }
-
+@font-face {
+  font-family: rubik;
+  src: url(../fonts/Rubik.ttf);
+}
 * {
   direction: rtl;
   font-family: araz;
   box-sizing: border-box;
+}
+*[lang="en_US"] {
+  font-family: rubik;
 }
 
 body {
