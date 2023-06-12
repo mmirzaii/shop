@@ -84,7 +84,7 @@ header nav .nav-left .register-login-btn a {
 .product-sec-new .row {
   width: 100%;
 }
-.product-sec-new .shoping-card {
+.shoping-card {
   text-align: center;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
   margin: 10px 15px;
@@ -234,10 +234,30 @@ header nav .nav-left .register-login-btn a {
   width: 80%;
 }
 @media only screen and (max-width: 991px) {
-  .banner{
+  .banner {
     display: none;
   }
-  .supper-offer-section .body .row{
-   display: block;
+  .supper-offer-section .body .row {
+    display: block;
   }
+}
+/* dragble list  */
+.dragble-list img {
+  width: 70% !important;
+  margin: auto;
+}
+.owl-stage-outer {
+  direction: ltr;
+}
+.dragble-list .item .title span {
+  font-size: 0.9em;
+}
+.dragble-list .titlet {
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+.dragble-list .titlet span {
+  font-size: 1.5em;
+  color: #444;
+  border-bottom: 2px solid #e74c3c;
 }
