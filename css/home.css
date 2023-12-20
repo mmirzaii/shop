@@ -233,14 +233,6 @@ header nav .nav-left .register-login-btn a {
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
   width: 80%;
 }
-@media only screen and (max-width: 991px) {
-  .banner {
-    display: none;
-  }
-  .supper-offer-section .body .row {
-    display: block;
-  }
-}
 /* dragble list  */
 .dragble-list img {
   width: 70% !important;
@@ -303,4 +295,95 @@ footer .bottom {
   text-align: center;
   padding: 15px;
   color: rgba(255, 255, 255, 0.9);
+}
+/* responsive */
+@media screen and (max-width: 992px) {
+  /* slider  */
+  .slider .slides .item span {
+    font-size: 1.5em;
+  }
+  /* shopping card  */
+  .shoping-card .title {
+    font-size: 1.2em;
+  }
+  /* supper offer section */
+  .banner {
+    display: none;
+  }
+  .supper-offer-box .body .spesification .remaining-time {
+    font-size: 1em;
+  }
+  /* footer  */
+  footer .right .des {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* shopping card  */
+  .shoping-card .title {
+    font-size: 2em;
+  }
+  .shoping-card .buttons .right .price {
+    font-size: 2em;
+  }
+  .shoping-card .img-sec .hot-offer {
+    font-size: 1.8em;
+  }
+  .shoping-card .img-sec .stars {
+    font-size: 1.5em;
+  }
+  .shoping-card .buttons .left .extend-btn {
+    justify-content: center;
+    width: auto;
+    padding: 16px 24px;
+    border-radius: 100%;
+  }
+  .shoping-card .buttons .left .extend-btn:hover {
+    width: auto;
+  }
+  .shoping-card .buttons .left .extend-btn .b-text {
+    display: none;
+  }
+  .shoping-card .buttons .left .extend-btn:hover .b-text {
+    display: none;
+  }
+  .shoping-card .buttons .left .extend-btn:hover .b-icon {
+    color: #222;
+  }
+  .shoping-card .buttons .left .extend-btn .b-icon {
+    padding-left: 0px;
+    font-size: 2em;
+  }
+  /* supper offer section */
+  .supper-offer-section {
+    font-size: 1.5em;
+  }
+  .supper-offer-box .supper-offer-box-title {
+    padding: 10px;
+    width: 95%;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .supper-offer-box .body .image-container img {
+    width: 70%;
+  }
+  .supper-offer-box .body .spesification .price-row {
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .supper-offer-box .body .spesification .remaining-time {
+    font-size: 1em;
+  }
+  /* footer  */
+  footer .right .des {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+  /* shoping card  */
+  .shoping-card .buttons .left .extend-btn {
+    padding: 4px 6px;
+  }
 }
